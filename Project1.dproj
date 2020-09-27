@@ -143,11 +143,11 @@ $(PostBuildEvent)]]></PostBuildEvent>
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="..\..\..\programming\delphi\id3\ID3v2Library.pas"/>
-        <DCCReference Include="..\..\..\programming\delphi\id3\ID3v1Library.pas"/>
-        <DCCReference Include="..\..\..\programming\delphi\id3\BufferedStream.pas"/>
-        <DCCReference Include="..\..\..\programming\delphi\bass\delphi\bass.pas"/>
-        <DCCReference Include="..\..\..\programming\delphi\id3\uTExtendedX87.pas"/>
+        <DCCReference Include="bass.pas"/>
+        <DCCReference Include="BufferedStream.pas"/>
+        <DCCReference Include="ID3v1Library.pas"/>
+        <DCCReference Include="ID3v2Library.pas"/>
+        <DCCReference Include="uTExtendedX87.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -1034,7 +1034,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
         <PreLinkEvent/>
         <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
-        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
+        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
         <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Debug' And '$(Platform)'=='Win64'">
@@ -1042,7 +1042,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
         <PreLinkEvent/>
         <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
-        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
+        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
         <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Release' And '$(Platform)'=='Win32'">
@@ -1050,7 +1050,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
         <PreLinkEvent/>
         <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
-        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
+        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
         <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Release' And '$(Platform)'=='Win64'">
@@ -1058,7 +1058,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
         <PreLinkEvent/>
         <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
-        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
+        <PostBuildEvent>copy &quot;$(OUTPUTPATH)&quot; &quot;$(OUTPUTDIR)QUICK n RANDOM.exe&quot;</PostBuildEvent>
         <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
     </PropertyGroup>
 </Project>
