@@ -5,6 +5,4 @@ most music players waste time to read mp3 tags of all files and make playlists e
 
 the icon, bass.dll, id3 libraries and lame.exe are each under license of [flaticon](https://www.flaticon.com/), [un4seen developments](http://www.un4seen.com/), [3delite's](https://www.3delite.hu/) and [the lame project](https://lame.sourceforge.io/) for non-commercial use only.  
 
-QUICK n RANDOM works on windows 64bit.  
-
 ![cats](https://user-images.githubusercontent.com/39131560/94345791-69b27f00-0063-11eb-8a99-d8a57d385eac.png)
